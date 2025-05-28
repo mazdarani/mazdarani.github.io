@@ -1,0 +1,35 @@
+---
+# _config.yml
+
+# Site settings
+title: Fateme Mazdarani
+email: fmazdar@clemson.edu
+description: >-
+  Ph.D. student in Computer Science at Clemson University interested in Optimization, Deep Learning, Efficient Learning, and Data Mining.
+baseurl: ""
+url: "https://mazdarani.github.io"
+
+# Author settings
+author:
+  name: Fateme Mazdarani
+  email: fmazdar@clemson.edu
+  github: mazdarani
+  avatar: /assets/img/avatar.png
+
+# Social Links
+social:
+  github: https://github.com/mazdarani
+  website: https://mazdarani.github.io
+
+# Build settings
+theme: minimal-cv
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
